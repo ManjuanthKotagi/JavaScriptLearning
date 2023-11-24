@@ -1,0 +1,49 @@
+let num1 = 6
+let num2 = 4
+
+let result = num1>num2
+
+if(result)
+    console.log("Num1 is greater")
+
+console.log("Bye")
+
+console.log("________________________________________________________");
+
+let num3 = 3
+let num4 = 4
+
+let result1 = num3>num4
+if(result1)
+    console.log("Num3 is greater")
+else
+    console.log("Num4 is greater");
+console.log("Bye")
+
+console.log("________________________________________________________");
+
+let num5 = 3
+let num6 = 4
+
+if(num5>num6){
+    console.log("num5 is greater")
+}
+else{
+    console.log("Num6 is greater");
+}
+console.log("________________________________________________________");
+
+let num7 = 9
+let num8 = 6
+let num9 = 5
+
+if(num7>num8 && num8>num9){
+    console.log("num7 is greater")
+}
+else if(num8>num9) {
+    console.log("Num8 is greater");
+}
+else{
+    console.log("Num9 is greater");
+}
+console.log("________________________________________________________");
