@@ -1,0 +1,12 @@
+let nums = [5,7,2,4]
+
+let [a,b,c,d] = nums; //assigning the array elements to another array
+
+console.log(a,b,c,d)
+console.log(5)
+
+console.log("------------------------------------")
+
+let words = "My Name is Manjunath Kotagi".split(" ")
+let [a1,b1,c1,d1] = words;
+console.log(a1,b1)
