@@ -18,3 +18,7 @@ console.log(data)
 data.forEach(value=>{
     console.log(value)
 })
+
+console.log(data[1])  
+
+console.log(data.has(3))
